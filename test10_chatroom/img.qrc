@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>head22.jpg</file>
+        <file>../../../../../../hqyj/image/4.jpg</file>
+        <file>../../../../../../hqyj/image/1.jpg</file>
+        <file>../../../../../../hqyj/image/5.jpg</file>
+        <file>../../../../../../hqyj/image/6.jpg</file>
+        <file>../../../../../../hqyj/image/7.jpg</file>
+        <file>../../../../../../Project/icon/caipiao.png</file>
+        <file>../../../../../../Project/icon/shuzi.jpg</file>
+        <file>../../../../../../Project/icon/计算器.jpg</file>
+        <file>../../../../../../Project/icon/color.jpg</file>
+        <file>../../../../../../Project/icon/exit.jpg</file>
+        <file>../../../../../../Project/icon/背景.jpg</file>
+        <file>../../../../../../Project/icon/th.jfif</file>
+    </qresource>
+</RCC>

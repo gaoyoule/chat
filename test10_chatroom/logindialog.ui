@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QDialog" name="LoginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>524</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>小乐娱乐平台</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#LoginDialog{image: url(:/hqyj/image/4.jpg);}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_login">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>360</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Project/icon/login.png</normaloff>../../../../../../Project/icon/login.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_register">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>360</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Project/icon/reg.jpg</normaloff>../../../../../../Project/icon/reg.jpg</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ip">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>服务器IP：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_id">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>180</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>账号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pass">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>250</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>密码：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_ip">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>100</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>192.168.153.1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_id">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>180</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="placeholderText">
+    <string>请输入账号：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_pass">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>250</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>请输入密码：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_connect">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>100</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>连接</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Project/icon/connec.png</normaloff>../../../../../../Project/icon/connec.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
